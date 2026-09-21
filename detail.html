@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detail Video - YOUR PLAY</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <div class="logo" onclick="location.href='index.html'">
+      <div class="logo-icon">▶</div>
+      <span>YOUR<span class="accent">PLAY</span></span>
+    </div>
+  </div>
+  <div class="nav-right">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari...">
+      <button onclick="location.href='index.html'">🔍</button>
+    </div>
+    <div id="userArea"></div>
+  </div>
+</nav>
+
+<main class="container detail-page">
+  <div class="detail-layout">
+    <div class="detail-main">
+      <!-- PLAYER EMBED YOUTUBE -->
+      <div class="player-container">
+        <iframe id="ytPlayer" src="" frameborder="0" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+
+      <div class="detail-info">
+        <h1 id="videoTitle">Loading...</h1>
+        <div class="detail-meta">
+          <span id="videoViews">👁 - views</span>
+          <span id="videoYear">📅 -</span>
+          <span id="videoRating">⭐ -</span>
+          <span id="videoGenre" class="genre-tag">-</span>
+        </div>
+
+        <div class="detail-actions">
+          <button class="action-btn" onclick="toggleWatchlist()" id="watchlistBtn">+ Tambah ke Watchlist</button>
+          <button class="action-btn">👍 Suka</button>
+          <button class="action-btn" onclick="shareVideo()">🔗 Bagikan</button>
+        </div>
+
+        <div class="detail-desc">
+          <h3>Deskripsi</h3>
+          <p id="videoDesc">-</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="detail-sidebar">
+      <h3>Rekomendasi</h3>
+      <div id="relatedList"></div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <p>© 2024 YOUR PLAY — Made with 💫 by <span class="accent">Pan</span></p>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+<script>
+  loadDetail();
+</script>
+</body>
+</html>

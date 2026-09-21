@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>About - YOUR PLAY</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-left">
+    <div class="logo" onclick="location.href='index.html'">
+      <div class="logo-icon">▶</div>
+      <span>YOUR<span class="accent">PLAY</span></span>
+    </div>
+  </div>
+</nav>
+
+<main class="about-page">
+
+  <div class="about-bg">
+    <div class="particle p1"></div>
+    <div class="particle p2"></div>
+    <div class="particle p3"></div>
+    <div class="particle p4"></div>
+    <div class="particle p5"></div>
+  </div>
+
+  <div class="about-hero">
+    <h1 class="glitch" data-text="YOUR PLAY">YOUR PLAY</h1>
+    <p class="about-tagline">Streaming Anime & Film Tanpa Batas</p>
+  </div>
+
+  <!-- CREATOR CARD ANIMASI PAN -->
+  <div class="creator-section">
+    <div class="creator-card">
+      <div class="creator-glow"></div>
+      <!-- FOTO CREATOR KAMU - GANTI creator.jpg NANTI -->
+      <div class="creator-photo">
+        <img src="assets/creator.png" alt="Pan" onerror="this.style.display='none';this.parentElement.innerHTML='<div class=\'creator-placeholder\'>P</div>'">
+      </div>
+      <div class="creator-ring"></div>
+      <h2 class="creator-name">PAN</h2>
+      <p class="creator-role">Developer & Founder</p>
+      <p class="creator-bio">
+        "Halo! Aku Pan, seorang developer yang suka anime dan film. 
+        YOUR PLAY dibuat untuk memberi pengalaman nonton yang nyaman, 
+        cepat, dan gratis untuk semua orang."
+      </p>
+      <div class="creator-socials">
+        <a href="#" class="social-btn">📷 Instagram</a>
+        <a href="#" class="social-btn">🐦 Twitter</a>
+        <a href="#" class="social-btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-info">
+    <div class="info-card">
+      <div class="info-icon">🎯</div>
+      <h3>Misi Kami</h3>
+      <p>Menyediakan platform streaming gratis, cepat, dan legal untuk anime & film bagi semua orang di Indonesia.</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">⚡</div>
+      <h3>Teknologi</h3>
+      <p>Dibangun dengan HTML, CSS, JavaScript vanilla. Video bersumber dari YouTube API — legal dan aman.</p>
+    </div>
+    <div class="info-card">
+      <div class="info-icon">💫</div>
+      <h3>Dibuat Dengan Serius</h3>
+      <p>Setiap fitur dirancang dengan detail untuk pengalaman pengguna terbaik. Terima kasih sudah berkunjung!</p>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h2>Hubungi Kami</h2>
+    <form class="contact-form" onsubmit="event.preventDefault();alert('Pesan terkirim! Terima kasih 🙏')">
+      <input type="text" placeholder="Nama kamu" required>
+      <input type="email" placeholder="Email kamu" required>
+      <textarea placeholder="Pesan..." rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Kirim Pesan</button>
+    </form>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <p>© 2024 YOUR PLAY — Made with 💫 by <span class="accent">Pan</span></p>
+  </div>
+</footer>
+
+</body>
+</html>
