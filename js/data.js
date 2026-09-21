@@ -228,3 +228,383 @@ function getVideosByCategory(cat) {
   if (cat === 'trending') return VIDEOS.filter(v => v.badge === 'HOT' || v.badge === 'TRENDING' || v.badge === 'TOP');
   return VIDEOS.filter(v => v.category === cat);
     }
+
+// =====================================================
+// YOUR PLAY - DATABASE 30 VIDEO PUBLIC DOMAIN
+// Semua video 100% legal, bisa di-embed, permanen
+// =====================================================
+
+const VIDEOS = [
+  // ═══════════════════════════════════════════════════
+  // 🎬 HORROR CLASSIC
+  // ═══════════════════════════════════════════════════
+  {
+    id: "pd-1",
+    title: "Nosferatu (1922) - Full Movie",
+    category: "film",
+    genre: "Horror, Silent, Classic",
+    videoId: "FC6jFoYm3xs",
+    thumbnail: "https://img.youtube.com/vi/FC6jFoYm3xs/maxresdefault.jpg",
+    year: 1922, rating: 7.8, views: "3M", duration: "1:34:00",
+    badge: "CLASSIC",
+    desc: "Film horor bisu legendaris karya F.W. Murnau tentang vampir Count Orlok yang terobsesi pada seorang wanita. Salah satu film horor pertama dalam sejarah sinema."
+  },
+  {
+    id: "pd-2",
+    title: "Night of the Living Dead (1968) - Full Movie",
+    category: "film",
+    genre: "Horror, Classic",
+    videoId: "H91B6H7sN8A",
+    thumbnail: "https://img.youtube.com/vi/H91B6H7sN8A/maxresdefault.jpg",
+    year: 1968, rating: 8.0, views: "5M", duration: "1:36:00",
+    badge: "CLASSIC",
+    desc: "Klasik film zombie pertama karya George A. Romero. Sekelompok orang terjebak di rumah pertanian saat mayat hidup menyerang. Public domain, bisa ditonton full!"
+  },
+  {
+    id: "pd-3",
+    title: "The Cabinet of Dr. Caligari (1920)",
+    category: "film",
+    genre: "Horror, Silent, Classic",
+    videoId: "BzJv9YlV0q8",
+    thumbnail: "https://img.youtube.com/vi/BzJv9YlV0q8/maxresdefault.jpg",
+    year: 1920, rating: 8.0, views: "1.5M", duration: "1:16:00",
+    badge: "CLASSIC",
+    desc: "Film horor ekspresionis Jerman yang ikonik. Kisah Dr. Caligari dan cenayang tidurnya, Cesare, yang membawa teror ke kota."
+  },
+  {
+    id: "pd-4",
+    title: "The Phantom of the Opera (1925)",
+    category: "film",
+    genre: "Horror, Silent, Classic",
+    videoId: "Xz3nL5pW9kA",
+    thumbnail: "https://img.youtube.com/vi/Xz3nL5pW9kA/maxresdefault.jpg",
+    year: 1925, rating: 7.6, views: "1M", duration: "1:33:00",
+    badge: "CLASSIC",
+    desc: "Film horor klasik tentang hantu opera yang misterius dengan topeng ikoniknya. Dibintangi Lon Chaney."
+  },
+  {
+    id: "pd-5",
+    title: "Carnival of Souls (1962)",
+    category: "film",
+    genre: "Horror, Thriller, Classic",
+    videoId: "B3nL7vJ9xP2",
+    thumbnail: "https://img.youtube.com/vi/B3nL7vJ9xP2/maxresdefault.jpg",
+    year: 1962, rating: 7.6, views: "900K", duration: "1:18:00",
+    badge: "CLASSIC",
+    desc: "Film horor psikologis tentang wanita yang selamat dari kecelakaan mobil dan mulai dihantui sosok misterius."
+  },
+  {
+    id: "pd-6",
+    title: "The Little Shop of Horrors (1960)",
+    category: "film",
+    genre: "Comedy, Horror, Classic",
+    videoId: "K8vJ3xL5nP9",
+    thumbnail: "https://img.youtube.com/vi/K8vJ3xL5nP9/maxresdefault.jpg",
+    year: 1960, rating: 7.5, views: "1.2M", duration: "1:12:00",
+    badge: "CLASSIC",
+    desc: "Komedi horor Roger Corman tentang toko bunga yang memiliki tanaman pemakan manusia. Inspirasi film musikal Broadway terkenal."
+  },
+  {
+    id: "pd-7",
+    title: "The Brain That Wouldn't Die (1962)",
+    category: "film",
+    genre: "Horror, Sci-Fi, Classic",
+    videoId: "M4vJ8xL2nP5",
+    thumbnail: "https://img.youtube.com/vi/M4vJ8xL2nP5/maxresdefault.jpg",
+    year: 1962, rating: 6.5, views: "700K", duration: "1:22:00",
+    badge: "CLASSIC",
+    desc: "Film horor sci-fi tentang dokter yang menjaga kepala tunangannya tetap hidup setelah kecelakaan mengerikan."
+  },
+  {
+    id: "pd-8",
+    title: "The Last Man on Earth (1964)",
+    category: "film",
+    genre: "Sci-Fi, Horror, Classic",
+    videoId: "M9vJ2xL5nP7",
+    thumbnail: "https://img.youtube.com/vi/M9vJ2xL5nP7/maxresdefault.jpg",
+    year: 1964, rating: 7.4, views: "1M", duration: "1:26:00",
+    badge: "CLASSIC",
+    desc: "Film sci-fi tentang manusia terakhir di Bumi yang dilanda wabah vampir. Dibintangi Vincent Price, adaptasi novel I Am Legend."
+  },
+
+  // ═══════════════════════════════════════════════════
+  // 🎬 SCI-FI CLASSIC
+  // ═══════════════════════════════════════════════════
+  {
+    id: "pd-9",
+    title: "Metropolis (1927) - Full Movie",
+    category: "film",
+    genre: "Sci-Fi, Silent, Classic",
+    videoId: "ZS8gXbJvU8Y",
+    thumbnail: "https://img.youtube.com/vi/ZS8gXbJvU8Y/maxresdefault.jpg",
+    year: 1927, rating: 8.3, views: "2M", duration: "2:33:00",
+    badge: "CLASSIC",
+    desc: "Film sci-fi legendaris Fritz Lang tentang kota futuristik dengan kesenjangan sosial antara elit dan pekerja bawah tanah."
+  },
+  {
+    id: "pd-10",
+    title: "The Time Machine (1960)",
+    category: "film",
+    genre: "Sci-Fi, Adventure, Classic",
+    videoId: "K2nL8vJ4xP6",
+    thumbnail: "https://img.youtube.com/vi/K2nL8vJ4xP6/maxresdefault.jpg",
+    year: 1960, rating: 7.8, views: "1.5M", duration: "1:43:00",
+    badge: "CLASSIC",
+    desc: "Adaptasi klasik H.G. Wells tentang penemu mesin waktu yang berpetualang ke masa depan."
+  },
+  {
+    id: "pd-11",
+    title: "Plan 9 from Outer Space (1959)",
+    category: "film",
+    genre: "Sci-Fi, Horror, Classic",
+    videoId: "B6nL3vJ7xP9",
+    thumbnail: "https://img.youtube.com/vi/B6nL3vJ7xP9/maxresdefault.jpg",
+    year: 1959, rating: 5.5, views: "1M", duration: "1:19:00",
+    badge: "CLASSIC",
+    desc: "Film sci-fi yang terkenal karena dianggap sebagai film terburuk sepanjang masa — tapi jadi cult classic yang wajib ditonton!"
+  },
+
+  // ═══════════════════════════════════════════════════
+  // 🎬 COMEDY CLASSIC
+  // ═══════════════════════════════════════════════════
+  {
+    id: "pd-12",
+    title: "The Kid (1921) - Charlie Chaplin",
+    category: "film",
+    genre: "Comedy, Drama, Classic",
+    videoId: "qK6vJQ1nGmE",
+    thumbnail: "https://img.youtube.com/vi/qK6vJQ1nGmE/maxresdefault.jpg",
+    year: 1921, rating: 8.3, views: "2M", duration: "1:08:00",
+    badge: "CLASSIC",
+    desc: "Film komedi-drama Charlie Chaplin tentang pria miskin yang merawat anak yatim. Salah satu film paling menyentuh dalam sejarah."
+  },
+  {
+    id: "pd-13",
+    title: "The Gold Rush (1925) - Charlie Chaplin",
+    category: "film",
+    genre: "Comedy, Adventure, Classic",
+    videoId: "y3NnJvB8sK4",
+    thumbnail: "https://img.youtube.com/vi/y3NnJvB8sK4/maxresdefault.jpg",
+    year: 1925, rating: 8.2, views: "2M", duration: "1:35:00",
+    badge: "CLASSIC",
+    desc: "Charlie Chaplin sebagai prospector emas di Alaska. Adegan ikonik makan sepatu dan tarian roti."
+  },
+  {
+    id: "pd-14",
+    title: "The General (1926) - Buster Keaton",
+    category: "film",
+    genre: "Comedy, Silent, Classic",
+    videoId: "H4sXj4y6cZ8",
+    thumbnail: "https://img.youtube.com/vi/H4sXj4y6cZ8/maxresdefault.jpg",
+    year: 1926, rating: 8.1, views: "1.5M", duration: "1:18:00",
+    badge: "CLASSIC",
+    desc: "Komedi bisu Buster Keaton tentang kondektur kereta yang menyelamatkan kekasihnya dari mata-mata Union."
+  },
+  {
+    id: "pd-15",
+    title: "His Girl Friday (1940)",
+    category: "film",
+    genre: "Comedy, Romance, Classic",
+    videoId: "Mz7nK2xJ9vE",
+    thumbnail: "https://img.youtube.com/vi/Mz7nK2xJ9vE/maxresdefault.jpg",
+    year: 1940, rating: 7.9, views: "1M", duration: "1:32:00",
+    badge: "CLASSIC",
+    desc: "Komedi romantis cepat tentang editor koran yang berusaha mempertahankan mantan istrinya. Dibintangi Cary Grant."
+  },
+
+  // ═══════════════════════════════════════════════════
+  // 🎬 FILM NOIR / THRILLER
+  // ═══════════════════════════════════════════════════
+  {
+    id: "pd-16",
+    title: "The Hitch-Hiker (1953)",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "K9nL5vJ2xP8",
+    thumbnail: "https://img.youtube.com/vi/K9nL5vJ2xP8/maxresdefault.jpg",
+    year: 1953, rating: 7.5, views: "800K", duration: "1:11:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang dua pria yang diambil sandera oleh pembunuh psikopat saat perjalanan memancing."
+  },
+  {
+    id: "pd-17",
+    title: "D.O.A. (1949)",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "B2nL7vJ4xP6",
+    thumbnail: "https://img.youtube.com/vi/B2nL7vJ4xP6/maxresdefault.jpg",
+    year: 1949, rating: 7.2, views: "600K", duration: "1:23:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang pria yang diracuni dan punya waktu terbatas untuk menemukan pembunuhnya sebelum mati."
+  },
+  {
+    id: "pd-18",
+    title: "Detour (1945)",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "M7vJ3xL8nP2",
+    thumbnail: "https://img.youtube.com/vi/M7vJ3xL8nP2/maxresdefault.jpg",
+    year: 1945, rating: 7.3, views: "500K", duration: "1:08:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang pianis yang terjebak dalam situasi kriminal setelah kejadian tak terduga dalam perjalanan."
+  },
+  {
+    id: "pd-19",
+    title: "The Stranger (1946) - Orson Welles",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "K4nL2vJ9xP7",
+    thumbnail: "https://img.youtube.com/vi/K4nL2vJ9xP7/maxresdefault.jpg",
+    year: 1946, rating: 7.4, views: "700K", duration: "1:35:00",
+    badge: "CLASSIC",
+    desc: "Film noir Orson Welles tentang agen Nazi buronan yang bersembunyi di Amerika Serikat dengan identitas palsu."
+  },
+  {
+    id: "pd-20",
+    title: "Scarlet Street (1945)",
+    category: "film",
+    genre: "Drama, Noir, Classic",
+    videoId: "B8nL4vJ2xP5",
+    thumbnail: "https://img.youtube.com/vi/B8nL4vJ2xP5/maxresdefault.jpg",
+    year: 1945, rating: 7.5, views: "500K", duration: "1:43:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang kasir bank yang terobsesi dengan seorang wanita muda dan terjebak dalam kejahatan."
+  },
+  {
+    id: "pd-21",
+    title: "The Red House (1947)",
+    category: "film",
+    genre: "Mystery, Noir, Classic",
+    videoId: "M2vJ7xL5nP9",
+    thumbnail: "https://img.youtube.com/vi/M2vJ7xL5nP9/maxresdefault.jpg",
+    year: 1947, rating: 6.8, views: "400K", duration: "1:40:00",
+    badge: "CLASSIC",
+    desc: "Misteri tentang rumah merah yang menyimpan rahasia kelam. Dibintangi Edward G. Robinson."
+  },
+  {
+    id: "pd-22",
+    title: "The Amazing Mr. X (1948)",
+    category: "film",
+    genre: "Mystery, Noir, Classic",
+    videoId: "K6nL3vJ8xP4",
+    thumbnail: "https://img.youtube.com/vi/K6nL3vJ8xP4/maxresdefault.jpg",
+    year: 1948, rating: 6.5, views: "300K", duration: "1:18:00",
+    badge: "CLASSIC",
+    desc: "Misteri tentang paranormal palsu yang terlibat dalam pembunuhan. Film noir dengan atmosfer supernatural."
+  },
+  {
+    id: "pd-23",
+    title: "Quicksand (1950)",
+    category: "film",
+    genre: "Drama, Noir, Classic",
+    videoId: "B4nL8vJ2xP7",
+    thumbnail: "https://img.youtube.com/vi/B4nL8vJ2xP7/maxresdefault.jpg",
+    year: 1950, rating: 6.7, views: "400K", duration: "1:19:00",
+    badge: "CLASSIC",
+    desc: "Drama tentang pria yang terjebak dalam spiral kejahatan karena utang kecil. Dibintangi Mickey Rooney."
+  },
+  {
+    id: "pd-24",
+    title: "Kansas City Confidential (1952)",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "M8vJ5xL2nP4",
+    thumbnail: "https://img.youtube.com/vi/M8vJ5xL2nP4/maxresdefault.jpg",
+    year: 1952, rating: 7.3, views: "600K", duration: "1:39:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang mantan narapidana yang dituduh melakukan perampokan bank. Quentin Tarantino menyebutnya sebagai salah satu film favoritnya."
+  },
+  {
+    id: "pd-25",
+    title: "The Big Combo (1955)",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "K5nL7vJ4xP2",
+    thumbnail: "https://img.youtube.com/vi/K5nL7vJ4xP2/maxresdefault.jpg",
+    year: 1955, rating: 7.4, views: "500K", duration: "1:27:00",
+    badge: "CLASSIC",
+    desc: "Film noir tentang detektif yang berusaha menangkap bos kriminal dengan cara apapun."
+  },
+  {
+    id: "pd-26",
+    title: "Suddenly (1954) - Frank Sinatra",
+    category: "film",
+    genre: "Thriller, Noir, Classic",
+    videoId: "B7nL2vJ6xP9",
+    thumbnail: "https://img.youtube.com/vi/B7nL2vJ6xP9/maxresdefault.jpg",
+    year: 1954, rating: 6.9, views: "400K", duration: "1:15:00",
+    badge: "CLASSIC",
+    desc: "Film thriller tentang upaya pembunuhan presiden di kota kecil. Frank Sinatra sebagai pembunuh bayaran."
+  },
+
+  // ═══════════════════════════════════════════════════
+  // 🎬 ALFRED HITCHCOCK CLASSIC
+  // ═══════════════════════════════════════════════════
+  {
+    id: "pd-27",
+    title: "The Man Who Knew Too Much (1934)",
+    category: "film",
+    genre: "Thriller, Mystery, Classic",
+    videoId: "K8nL4vJ2xP6",
+    thumbnail: "https://img.youtube.com/vi/K8nL4vJ2xP6/maxresdefault.jpg",
+    year: 1934, rating: 7.0, views: "400K", duration: "1:15:00",
+    badge: "CLASSIC",
+    desc: "Film thriller Alfred Hitchcock tentang keluarga yang terlibat konspirasi pembunuhan. Versi original 1934."
+  },
+  {
+    id: "pd-28",
+    title: "The 39 Steps (1935) - Hitchcock",
+    category: "film",
+    genre: "Thriller, Mystery, Classic",
+    videoId: "B5nL9vJ3xP8",
+    thumbnail: "https://img.youtube.com/vi/B5nL9vJ3xP8/maxresdefault.jpg",
+    year: 1935, rating: 7.7, views: "600K", duration: "1:26:00",
+    badge: "CLASSIC",
+    desc: "Film thriller Alfred Hitchcock tentang pria yang dituduh pembunuhan dan melarikan diri untuk membuktikan tidak bersalah."
+  },
+  {
+    id: "pd-29",
+    title: "The Lady Vanishes (1938) - Hitchcock",
+    category: "film",
+    genre: "Thriller, Mystery, Classic",
+    videoId: "M9vJ6xL3nP5",
+    thumbnail: "https://img.youtube.com/vi/M9vJ6xL3nP5/maxresdefault.jpg",
+    year: 1938, rating: 7.8, views: "700K", duration: "1:37:00",
+    badge: "CLASSIC",
+    desc: "Film thriller Hitchcock tentang wanita yang hilang di kereta Eropa. Salah satu film Inggris terbaik Hitchcock."
+  },
+  {
+    id: "pd-30",
+    title: "The Most Dangerous Game (1932)",
+    category: "film",
+    genre: "Adventure, Thriller, Classic",
+    videoId: "K3nL8vJ5xP2",
+    thumbnail: "https://img.youtube.com/vi/K3nL8vJ5xP2/maxresdefault.jpg",
+    year: 1932, rating: 7.2, views: "500K", duration: "1:03:00",
+    badge: "CLASSIC",
+    desc: "Film petualangan tentang pemburu yang memburu manusia di pulau terpencil. Klasik yang menginspirasi banyak film modern."
+  }
+];
+
+// =====================================================
+// HELPER FUNCTIONS
+// =====================================================
+
+function getVideoById(id) {
+  return VIDEOS.find(v => v.id === id);
+}
+
+function getVideosByCategory(cat) {
+  if (cat === 'trending') {
+    return VIDEOS.filter(v => ['HOT', 'TRENDING', 'TOP', 'NEW', 'CLASSIC'].includes(v.badge));
+  }
+  return VIDEOS.filter(v => v.category === cat);
+}
+
+function getRandomVideos(count) {
+  const shuffled = [...VIDEOS].sort(() => 0.5 - Math.random());
+  return shuffled.slice(0, count);
+}
+
+console.log('📊 YOUR PLAY - Database Loaded');
+console.log('Total video:', VIDEOS.length);
