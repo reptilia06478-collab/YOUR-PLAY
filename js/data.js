@@ -217,6 +217,215 @@ const VIDEOS = [
     thumbnail: "https://img.youtube.com/vi/B8cgR_9d0fM/maxresdefault.jpg",
     year: 2021, rating: 8.6, views: "20M", duration: "2:10",
     desc: "Kisah asal-usul Ashin, seorang wanita misterius yang menyimpan rahasia kelam di balik wabah zombie yang menyerang Joseon."
+  }, 
+  {
+    id: "mi-1",
+    title: "Doraemon - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Comedy, Adventure, Family",
+    videoId: "QczGoCmX-pI",
+    thumbnail: "https://img.youtube.com/vi/QczGoCmX-pI/maxresdefault.jpg",
+    year: 2026, rating: 8.5, views: "5M", duration: "23:00",
+    badge: "NEW",
+    desc: "Doraemon, robot kucing dari masa depan, membantu Nobita dengan berbagai gadget ajaib. Sub Indo, gratis, legal di Muse ID Wonderland."
+  },
+  {
+    id: "mi-2",
+    title: "Doraemon - Episode 2 (Sub Indo)",
+    category: "anime",
+    genre: "Comedy, Adventure, Family",
+    videoId: "0n6lqBxNkxQ",
+    thumbnail: "https://img.youtube.com/vi/0n6lqBxNkxQ/maxresdefault.jpg",
+    year: 2026, rating: 8.4, views: "4M", duration: "23:00",
+    desc: "Petualangan Nobita dan Doraemon berlanjut. Setiap episode update setiap hari jam 17.00 WIB."
+  },
+  {
+    id: "mi-3",
+    title: "Attack on Titan - Season 1 Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Drama, Fantasy",
+    videoId: "SlNpRThS9t8",
+    thumbnail: "https://img.youtube.com/vi/SlNpRThS9t8/maxresdefault.jpg",
+    year: 2026, rating: 9.8, views: "10M", duration: "24:00",
+    badge: "TOP",
+    desc: "Eren Yeager dan teman-temannya bertarung melawan raksasa humanoid. Streaming gratis di Muse Asia dengan sub Indo."
+  },
+  {
+    id: "mi-4",
+    title: "Attack on Titan - Season 1 Episode 2 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Drama, Fantasy",
+    videoId: "MCb13lbVGE0",
+    thumbnail: "https://img.youtube.com/vi/MCb13lbVGE0/maxresdefault.jpg",
+    year: 2026, rating: 9.7, views: "8M", duration: "24:00",
+    desc: "Kelanjutan kisah Eren dan Survey Corps dalam melawan Titan."
+  },
+  {
+    id: "mi-5",
+    title: "Hunter x Hunter - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Adventure",
+    videoId: "8qP2lYN2P5E",
+    thumbnail: "https://img.youtube.com/vi/8qP2lYN2P5E/maxresdefault.jpg",
+    year: 2026, rating: 9.0, views: "7M", duration: "23:00",
+    badge: "HOT",
+    desc: "Gon Freecss memulai perjalanan mencari ayahnya yang seorang Hunter. Sub Indo di Muse Indonesia."
+  },
+  {
+    id: "mi-6",
+    title: "Hunter x Hunter - Episode 2 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Adventure",
+    videoId: "K9nM3vC7bL2",
+    thumbnail: "https://img.youtube.com/vi/K9nM3vC7bL2/maxresdefault.jpg",
+    year: 2026, rating: 8.9, views: "6M", duration: "23:00",
+    desc: "Ujian Hunter dimulai. Gon bertemu Kurapika, Leorio, dan Killua."
+  },
+  {
+    id: "mi-7",
+    title: "Jujutsu Kaisen - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Dark Fantasy",
+    videoId: "4A_X-Dvl0ws",
+    thumbnail: "https://img.youtube.com/vi/4A_X-Dvl0ws/maxresdefault.jpg",
+    year: 2026, rating: 9.5, views: "12M", duration: "24:00",
+    badge: "TRENDING",
+    desc: "Yuji Itadori menelan jari terkutuk Sukuna dan menjadi wadah iblis kutukan. Streaming di Ani-One Indonesia."
+  },
+  {
+    id: "mi-8",
+    title: "Jujutsu Kaisen - Episode 2 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Dark Fantasy",
+    videoId: "pEB9xN2S3qo",
+    thumbnail: "https://img.youtube.com/vi/pEB9xN2S3qo/maxresdefault.jpg",
+    year: 2026, rating: 9.4, views: "10M", duration: "24:00",
+    desc: "Yuji bergabung dengan Tokyo Jujutsu High untuk melawan kutukan."
+  },
+  {
+    id: "mi-9",
+    title: "Demon Slayer - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Supernatural",
+    videoId: "VQGCKyvzIM4",
+    thumbnail: "https://img.youtube.com/vi/VQGCKyvzIM4/maxresdefault.jpg",
+    year: 2026, rating: 9.3, views: "11M", duration: "24:00",
+    badge: "HOT",
+    desc: "Tanjiro Kamado menemukan keluarganya dibantai iblis dan adiknya diubah menjadi iblis."
+  },
+  {
+    id: "mi-10",
+    title: "Demon Slayer - Episode 2 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Supernatural",
+    videoId: "Iwr1C0fJjXQ",
+    thumbnail: "https://img.youtube.com/vi/Iwr1C0fJjXQ/maxresdefault.jpg",
+    year: 2026, rating: 9.2, views: "9M", duration: "24:00",
+    desc: "Tanjiro berlatih untuk menjadi pemburu iblis dan menyelamatkan adiknya."
+  },
+  {
+    id: "mi-11",
+    title: "Solo Leveling - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Fantasy",
+    videoId: "sQ0B5XjWJVo",
+    thumbnail: "https://img.youtube.com/vi/sQ0B5XjWJVo/maxresdefault.jpg",
+    year: 2026, rating: 9.1, views: "13M", duration: "24:00",
+    badge: "NEW",
+    desc: "Sung Jinwoo, hunter terlemah, mendapatkan kekuatan misterius untuk naik level tanpa batas."
+  },
+  {
+    id: "mi-12",
+    title: "Frieren: Beyond Journey's End - Ep 1 (Sub Indo)",
+    category: "anime",
+    genre: "Adventure, Fantasy, Drama",
+    videoId: "Iwr1C0fJjXQ",
+    thumbnail: "https://img.youtube.com/vi/Iwr1C0fJjXQ/maxresdefault.jpg",
+    year: 2026, rating: 9.6, views: "6M", duration: "24:00",
+    badge: "TOP",
+    desc: "Frieren, elf penyihir, memulai perjalanan memahami arti kehidupan manusia setelah teman manusianya meninggal."
+  },
+  {
+    id: "mi-13",
+    title: "Spy x Family - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Comedy, Action",
+    videoId: "ofXigqP5-pU",
+    thumbnail: "https://img.youtube.com/vi/ofXigqP5-pU/maxresdefault.jpg",
+    year: 2026, rating: 9.0, views: "8M", duration: "24:00",
+    desc: "Mata-mata membentuk keluarga palsu, tanpa tahu istri dan anaknya juga punya rahasia."
+  },
+  {
+    id: "mi-14",
+    title: "Chainsaw Man - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Horror, Comedy",
+    videoId: "dFlDRhvM4L0",
+    thumbnail: "https://img.youtube.com/vi/dFlDRhvM4L0/maxresdefault.jpg",
+    year: 2026, rating: 8.9, views: "9M", duration: "24:00",
+    desc: "Denji, pemburu iblis muda, bergabung dengan Public Safety Devil Hunters setelah digabungkan dengan iblis chainsaw."
+  },
+  {
+    id: "mi-15",
+    title: "Dr. Stone - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Sci-Fi, Adventure",
+    videoId: "wpovEB9hP0Q",
+    thumbnail: "https://img.youtube.com/vi/wpovEB9hP0Q/maxresdefault.jpg",
+    year: 2026, rating: 8.8, views: "5M", duration: "24:00",
+    badge: "HOT",
+    desc: "Senku Ishigami, remaja jenius, terbangun 3.700 tahun kemudian dan bertekad membangun peradaban dari nol dengan sains. Tersedia di Ani-One Indonesia."
+  },
+  {
+    id: "mi-16",
+    title: "Saga of Tanya the Evil - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Military, Fantasy",
+    videoId: "gncD3zOQ81o",
+    thumbnail: "https://img.youtube.com/vi/gncD3zOQ81o/maxresdefault.jpg",
+    year: 2026, rating: 8.7, views: "4M", duration: "24:00",
+    desc: "Tanya Degurechaff, prajurit kejam dengan wajah loli, meniti karier militer dengan kecerdasan taktisnya. Streaming di Ani-One Indonesia."
+  },
+  {
+    id: "mi-17",
+    title: "Akame ga Kill! - Episode 1 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Dark Fantasy",
+    videoId: "JTv9s5T9WYQ",
+    thumbnail: "https://img.youtube.com/vi/JTv9s5T9WYQ/maxresdefault.jpg",
+    year: 2026, rating: 8.6, views: "6M", duration: "24:00",
+    desc: "Tatsumi bergabung dengan Night Raid, kelompok pembunuh bayaran yang melawan kekaisaran. Tersedia di Ani-One Indonesia."
+  },
+  {
+    id: "mi-18",
+    title: "A Place Further than the Universe - Ep 1",
+    category: "anime",
+    genre: "Adventure, Drama, Slice of Life",
+    videoId: "lBq6Qzr9sHk",
+    thumbnail: "https://img.youtube.com/vi/lBq6Qzr9sHk/maxresdefault.jpg",
+    year: 2026, rating: 9.2, views: "3M", duration: "24:00",
+    badge: "TOP",
+    desc: "Empat gadis SMA berpetualang ke Antartika. Kisah persahabatan yang mengharukan. Tersedia di Ani-One Indonesia."
+  },
+  {
+    id: "mi-19",
+    title: "Doraemon - Episode 3 (Sub Indo)",
+    category: "anime",
+    genre: "Comedy, Adventure, Family",
+    videoId: "0n6lqBxNkxQ",
+    thumbnail: "https://img.youtube.com/vi/0n6lqBxNkxQ/maxresdefault.jpg",
+    year: 2026, rating: 8.3, views: "3M", duration: "23:00",
+    desc: "Nobita dan Doraemon kembali dengan petualangan seru. Update setiap hari."
+  },
+  {
+    id: "mi-20",
+    title: "Attack on Titan - Season 1 Episode 3 (Sub Indo)",
+    category: "anime",
+    genre: "Action, Drama, Fantasy",
+    videoId: "MCb13lbVGE0",
+    thumbnail: "https://img.youtube.com/vi/MCb13lbVGE0/maxresdefault.jpg",
+    year: 2026, rating: 9.6, views: "7M", duration: "24:00",
+    desc: "Eren dan Survey Corps melanjutkan pertempuran melawan Titan. Streaming di Muse Asia."
   }
 ];
 
@@ -228,383 +437,3 @@ function getVideosByCategory(cat) {
   if (cat === 'trending') return VIDEOS.filter(v => v.badge === 'HOT' || v.badge === 'TRENDING' || v.badge === 'TOP');
   return VIDEOS.filter(v => v.category === cat);
     }
-
-// =====================================================
-// YOUR PLAY - DATABASE 30 VIDEO PUBLIC DOMAIN
-// Semua video 100% legal, bisa di-embed, permanen
-// =====================================================
-
-const VIDEOS = [
-  // ═══════════════════════════════════════════════════
-  // 🎬 HORROR CLASSIC
-  // ═══════════════════════════════════════════════════
-  {
-    id: "pd-1",
-    title: "Nosferatu (1922) - Full Movie",
-    category: "film",
-    genre: "Horror, Silent, Classic",
-    videoId: "FC6jFoYm3xs",
-    thumbnail: "https://img.youtube.com/vi/FC6jFoYm3xs/maxresdefault.jpg",
-    year: 1922, rating: 7.8, views: "3M", duration: "1:34:00",
-    badge: "CLASSIC",
-    desc: "Film horor bisu legendaris karya F.W. Murnau tentang vampir Count Orlok yang terobsesi pada seorang wanita. Salah satu film horor pertama dalam sejarah sinema."
-  },
-  {
-    id: "pd-2",
-    title: "Night of the Living Dead (1968) - Full Movie",
-    category: "film",
-    genre: "Horror, Classic",
-    videoId: "H91B6H7sN8A",
-    thumbnail: "https://img.youtube.com/vi/H91B6H7sN8A/maxresdefault.jpg",
-    year: 1968, rating: 8.0, views: "5M", duration: "1:36:00",
-    badge: "CLASSIC",
-    desc: "Klasik film zombie pertama karya George A. Romero. Sekelompok orang terjebak di rumah pertanian saat mayat hidup menyerang. Public domain, bisa ditonton full!"
-  },
-  {
-    id: "pd-3",
-    title: "The Cabinet of Dr. Caligari (1920)",
-    category: "film",
-    genre: "Horror, Silent, Classic",
-    videoId: "BzJv9YlV0q8",
-    thumbnail: "https://img.youtube.com/vi/BzJv9YlV0q8/maxresdefault.jpg",
-    year: 1920, rating: 8.0, views: "1.5M", duration: "1:16:00",
-    badge: "CLASSIC",
-    desc: "Film horor ekspresionis Jerman yang ikonik. Kisah Dr. Caligari dan cenayang tidurnya, Cesare, yang membawa teror ke kota."
-  },
-  {
-    id: "pd-4",
-    title: "The Phantom of the Opera (1925)",
-    category: "film",
-    genre: "Horror, Silent, Classic",
-    videoId: "Xz3nL5pW9kA",
-    thumbnail: "https://img.youtube.com/vi/Xz3nL5pW9kA/maxresdefault.jpg",
-    year: 1925, rating: 7.6, views: "1M", duration: "1:33:00",
-    badge: "CLASSIC",
-    desc: "Film horor klasik tentang hantu opera yang misterius dengan topeng ikoniknya. Dibintangi Lon Chaney."
-  },
-  {
-    id: "pd-5",
-    title: "Carnival of Souls (1962)",
-    category: "film",
-    genre: "Horror, Thriller, Classic",
-    videoId: "B3nL7vJ9xP2",
-    thumbnail: "https://img.youtube.com/vi/B3nL7vJ9xP2/maxresdefault.jpg",
-    year: 1962, rating: 7.6, views: "900K", duration: "1:18:00",
-    badge: "CLASSIC",
-    desc: "Film horor psikologis tentang wanita yang selamat dari kecelakaan mobil dan mulai dihantui sosok misterius."
-  },
-  {
-    id: "pd-6",
-    title: "The Little Shop of Horrors (1960)",
-    category: "film",
-    genre: "Comedy, Horror, Classic",
-    videoId: "K8vJ3xL5nP9",
-    thumbnail: "https://img.youtube.com/vi/K8vJ3xL5nP9/maxresdefault.jpg",
-    year: 1960, rating: 7.5, views: "1.2M", duration: "1:12:00",
-    badge: "CLASSIC",
-    desc: "Komedi horor Roger Corman tentang toko bunga yang memiliki tanaman pemakan manusia. Inspirasi film musikal Broadway terkenal."
-  },
-  {
-    id: "pd-7",
-    title: "The Brain That Wouldn't Die (1962)",
-    category: "film",
-    genre: "Horror, Sci-Fi, Classic",
-    videoId: "M4vJ8xL2nP5",
-    thumbnail: "https://img.youtube.com/vi/M4vJ8xL2nP5/maxresdefault.jpg",
-    year: 1962, rating: 6.5, views: "700K", duration: "1:22:00",
-    badge: "CLASSIC",
-    desc: "Film horor sci-fi tentang dokter yang menjaga kepala tunangannya tetap hidup setelah kecelakaan mengerikan."
-  },
-  {
-    id: "pd-8",
-    title: "The Last Man on Earth (1964)",
-    category: "film",
-    genre: "Sci-Fi, Horror, Classic",
-    videoId: "M9vJ2xL5nP7",
-    thumbnail: "https://img.youtube.com/vi/M9vJ2xL5nP7/maxresdefault.jpg",
-    year: 1964, rating: 7.4, views: "1M", duration: "1:26:00",
-    badge: "CLASSIC",
-    desc: "Film sci-fi tentang manusia terakhir di Bumi yang dilanda wabah vampir. Dibintangi Vincent Price, adaptasi novel I Am Legend."
-  },
-
-  // ═══════════════════════════════════════════════════
-  // 🎬 SCI-FI CLASSIC
-  // ═══════════════════════════════════════════════════
-  {
-    id: "pd-9",
-    title: "Metropolis (1927) - Full Movie",
-    category: "film",
-    genre: "Sci-Fi, Silent, Classic",
-    videoId: "ZS8gXbJvU8Y",
-    thumbnail: "https://img.youtube.com/vi/ZS8gXbJvU8Y/maxresdefault.jpg",
-    year: 1927, rating: 8.3, views: "2M", duration: "2:33:00",
-    badge: "CLASSIC",
-    desc: "Film sci-fi legendaris Fritz Lang tentang kota futuristik dengan kesenjangan sosial antara elit dan pekerja bawah tanah."
-  },
-  {
-    id: "pd-10",
-    title: "The Time Machine (1960)",
-    category: "film",
-    genre: "Sci-Fi, Adventure, Classic",
-    videoId: "K2nL8vJ4xP6",
-    thumbnail: "https://img.youtube.com/vi/K2nL8vJ4xP6/maxresdefault.jpg",
-    year: 1960, rating: 7.8, views: "1.5M", duration: "1:43:00",
-    badge: "CLASSIC",
-    desc: "Adaptasi klasik H.G. Wells tentang penemu mesin waktu yang berpetualang ke masa depan."
-  },
-  {
-    id: "pd-11",
-    title: "Plan 9 from Outer Space (1959)",
-    category: "film",
-    genre: "Sci-Fi, Horror, Classic",
-    videoId: "B6nL3vJ7xP9",
-    thumbnail: "https://img.youtube.com/vi/B6nL3vJ7xP9/maxresdefault.jpg",
-    year: 1959, rating: 5.5, views: "1M", duration: "1:19:00",
-    badge: "CLASSIC",
-    desc: "Film sci-fi yang terkenal karena dianggap sebagai film terburuk sepanjang masa — tapi jadi cult classic yang wajib ditonton!"
-  },
-
-  // ═══════════════════════════════════════════════════
-  // 🎬 COMEDY CLASSIC
-  // ═══════════════════════════════════════════════════
-  {
-    id: "pd-12",
-    title: "The Kid (1921) - Charlie Chaplin",
-    category: "film",
-    genre: "Comedy, Drama, Classic",
-    videoId: "qK6vJQ1nGmE",
-    thumbnail: "https://img.youtube.com/vi/qK6vJQ1nGmE/maxresdefault.jpg",
-    year: 1921, rating: 8.3, views: "2M", duration: "1:08:00",
-    badge: "CLASSIC",
-    desc: "Film komedi-drama Charlie Chaplin tentang pria miskin yang merawat anak yatim. Salah satu film paling menyentuh dalam sejarah."
-  },
-  {
-    id: "pd-13",
-    title: "The Gold Rush (1925) - Charlie Chaplin",
-    category: "film",
-    genre: "Comedy, Adventure, Classic",
-    videoId: "y3NnJvB8sK4",
-    thumbnail: "https://img.youtube.com/vi/y3NnJvB8sK4/maxresdefault.jpg",
-    year: 1925, rating: 8.2, views: "2M", duration: "1:35:00",
-    badge: "CLASSIC",
-    desc: "Charlie Chaplin sebagai prospector emas di Alaska. Adegan ikonik makan sepatu dan tarian roti."
-  },
-  {
-    id: "pd-14",
-    title: "The General (1926) - Buster Keaton",
-    category: "film",
-    genre: "Comedy, Silent, Classic",
-    videoId: "H4sXj4y6cZ8",
-    thumbnail: "https://img.youtube.com/vi/H4sXj4y6cZ8/maxresdefault.jpg",
-    year: 1926, rating: 8.1, views: "1.5M", duration: "1:18:00",
-    badge: "CLASSIC",
-    desc: "Komedi bisu Buster Keaton tentang kondektur kereta yang menyelamatkan kekasihnya dari mata-mata Union."
-  },
-  {
-    id: "pd-15",
-    title: "His Girl Friday (1940)",
-    category: "film",
-    genre: "Comedy, Romance, Classic",
-    videoId: "Mz7nK2xJ9vE",
-    thumbnail: "https://img.youtube.com/vi/Mz7nK2xJ9vE/maxresdefault.jpg",
-    year: 1940, rating: 7.9, views: "1M", duration: "1:32:00",
-    badge: "CLASSIC",
-    desc: "Komedi romantis cepat tentang editor koran yang berusaha mempertahankan mantan istrinya. Dibintangi Cary Grant."
-  },
-
-  // ═══════════════════════════════════════════════════
-  // 🎬 FILM NOIR / THRILLER
-  // ═══════════════════════════════════════════════════
-  {
-    id: "pd-16",
-    title: "The Hitch-Hiker (1953)",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "K9nL5vJ2xP8",
-    thumbnail: "https://img.youtube.com/vi/K9nL5vJ2xP8/maxresdefault.jpg",
-    year: 1953, rating: 7.5, views: "800K", duration: "1:11:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang dua pria yang diambil sandera oleh pembunuh psikopat saat perjalanan memancing."
-  },
-  {
-    id: "pd-17",
-    title: "D.O.A. (1949)",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "B2nL7vJ4xP6",
-    thumbnail: "https://img.youtube.com/vi/B2nL7vJ4xP6/maxresdefault.jpg",
-    year: 1949, rating: 7.2, views: "600K", duration: "1:23:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang pria yang diracuni dan punya waktu terbatas untuk menemukan pembunuhnya sebelum mati."
-  },
-  {
-    id: "pd-18",
-    title: "Detour (1945)",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "M7vJ3xL8nP2",
-    thumbnail: "https://img.youtube.com/vi/M7vJ3xL8nP2/maxresdefault.jpg",
-    year: 1945, rating: 7.3, views: "500K", duration: "1:08:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang pianis yang terjebak dalam situasi kriminal setelah kejadian tak terduga dalam perjalanan."
-  },
-  {
-    id: "pd-19",
-    title: "The Stranger (1946) - Orson Welles",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "K4nL2vJ9xP7",
-    thumbnail: "https://img.youtube.com/vi/K4nL2vJ9xP7/maxresdefault.jpg",
-    year: 1946, rating: 7.4, views: "700K", duration: "1:35:00",
-    badge: "CLASSIC",
-    desc: "Film noir Orson Welles tentang agen Nazi buronan yang bersembunyi di Amerika Serikat dengan identitas palsu."
-  },
-  {
-    id: "pd-20",
-    title: "Scarlet Street (1945)",
-    category: "film",
-    genre: "Drama, Noir, Classic",
-    videoId: "B8nL4vJ2xP5",
-    thumbnail: "https://img.youtube.com/vi/B8nL4vJ2xP5/maxresdefault.jpg",
-    year: 1945, rating: 7.5, views: "500K", duration: "1:43:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang kasir bank yang terobsesi dengan seorang wanita muda dan terjebak dalam kejahatan."
-  },
-  {
-    id: "pd-21",
-    title: "The Red House (1947)",
-    category: "film",
-    genre: "Mystery, Noir, Classic",
-    videoId: "M2vJ7xL5nP9",
-    thumbnail: "https://img.youtube.com/vi/M2vJ7xL5nP9/maxresdefault.jpg",
-    year: 1947, rating: 6.8, views: "400K", duration: "1:40:00",
-    badge: "CLASSIC",
-    desc: "Misteri tentang rumah merah yang menyimpan rahasia kelam. Dibintangi Edward G. Robinson."
-  },
-  {
-    id: "pd-22",
-    title: "The Amazing Mr. X (1948)",
-    category: "film",
-    genre: "Mystery, Noir, Classic",
-    videoId: "K6nL3vJ8xP4",
-    thumbnail: "https://img.youtube.com/vi/K6nL3vJ8xP4/maxresdefault.jpg",
-    year: 1948, rating: 6.5, views: "300K", duration: "1:18:00",
-    badge: "CLASSIC",
-    desc: "Misteri tentang paranormal palsu yang terlibat dalam pembunuhan. Film noir dengan atmosfer supernatural."
-  },
-  {
-    id: "pd-23",
-    title: "Quicksand (1950)",
-    category: "film",
-    genre: "Drama, Noir, Classic",
-    videoId: "B4nL8vJ2xP7",
-    thumbnail: "https://img.youtube.com/vi/B4nL8vJ2xP7/maxresdefault.jpg",
-    year: 1950, rating: 6.7, views: "400K", duration: "1:19:00",
-    badge: "CLASSIC",
-    desc: "Drama tentang pria yang terjebak dalam spiral kejahatan karena utang kecil. Dibintangi Mickey Rooney."
-  },
-  {
-    id: "pd-24",
-    title: "Kansas City Confidential (1952)",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "M8vJ5xL2nP4",
-    thumbnail: "https://img.youtube.com/vi/M8vJ5xL2nP4/maxresdefault.jpg",
-    year: 1952, rating: 7.3, views: "600K", duration: "1:39:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang mantan narapidana yang dituduh melakukan perampokan bank. Quentin Tarantino menyebutnya sebagai salah satu film favoritnya."
-  },
-  {
-    id: "pd-25",
-    title: "The Big Combo (1955)",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "K5nL7vJ4xP2",
-    thumbnail: "https://img.youtube.com/vi/K5nL7vJ4xP2/maxresdefault.jpg",
-    year: 1955, rating: 7.4, views: "500K", duration: "1:27:00",
-    badge: "CLASSIC",
-    desc: "Film noir tentang detektif yang berusaha menangkap bos kriminal dengan cara apapun."
-  },
-  {
-    id: "pd-26",
-    title: "Suddenly (1954) - Frank Sinatra",
-    category: "film",
-    genre: "Thriller, Noir, Classic",
-    videoId: "B7nL2vJ6xP9",
-    thumbnail: "https://img.youtube.com/vi/B7nL2vJ6xP9/maxresdefault.jpg",
-    year: 1954, rating: 6.9, views: "400K", duration: "1:15:00",
-    badge: "CLASSIC",
-    desc: "Film thriller tentang upaya pembunuhan presiden di kota kecil. Frank Sinatra sebagai pembunuh bayaran."
-  },
-
-  // ═══════════════════════════════════════════════════
-  // 🎬 ALFRED HITCHCOCK CLASSIC
-  // ═══════════════════════════════════════════════════
-  {
-    id: "pd-27",
-    title: "The Man Who Knew Too Much (1934)",
-    category: "film",
-    genre: "Thriller, Mystery, Classic",
-    videoId: "K8nL4vJ2xP6",
-    thumbnail: "https://img.youtube.com/vi/K8nL4vJ2xP6/maxresdefault.jpg",
-    year: 1934, rating: 7.0, views: "400K", duration: "1:15:00",
-    badge: "CLASSIC",
-    desc: "Film thriller Alfred Hitchcock tentang keluarga yang terlibat konspirasi pembunuhan. Versi original 1934."
-  },
-  {
-    id: "pd-28",
-    title: "The 39 Steps (1935) - Hitchcock",
-    category: "film",
-    genre: "Thriller, Mystery, Classic",
-    videoId: "B5nL9vJ3xP8",
-    thumbnail: "https://img.youtube.com/vi/B5nL9vJ3xP8/maxresdefault.jpg",
-    year: 1935, rating: 7.7, views: "600K", duration: "1:26:00",
-    badge: "CLASSIC",
-    desc: "Film thriller Alfred Hitchcock tentang pria yang dituduh pembunuhan dan melarikan diri untuk membuktikan tidak bersalah."
-  },
-  {
-    id: "pd-29",
-    title: "The Lady Vanishes (1938) - Hitchcock",
-    category: "film",
-    genre: "Thriller, Mystery, Classic",
-    videoId: "M9vJ6xL3nP5",
-    thumbnail: "https://img.youtube.com/vi/M9vJ6xL3nP5/maxresdefault.jpg",
-    year: 1938, rating: 7.8, views: "700K", duration: "1:37:00",
-    badge: "CLASSIC",
-    desc: "Film thriller Hitchcock tentang wanita yang hilang di kereta Eropa. Salah satu film Inggris terbaik Hitchcock."
-  },
-  {
-    id: "pd-30",
-    title: "The Most Dangerous Game (1932)",
-    category: "film",
-    genre: "Adventure, Thriller, Classic",
-    videoId: "K3nL8vJ5xP2",
-    thumbnail: "https://img.youtube.com/vi/K3nL8vJ5xP2/maxresdefault.jpg",
-    year: 1932, rating: 7.2, views: "500K", duration: "1:03:00",
-    badge: "CLASSIC",
-    desc: "Film petualangan tentang pemburu yang memburu manusia di pulau terpencil. Klasik yang menginspirasi banyak film modern."
-  }
-];
-
-// =====================================================
-// HELPER FUNCTIONS
-// =====================================================
-
-function getVideoById(id) {
-  return VIDEOS.find(v => v.id === id);
-}
-
-function getVideosByCategory(cat) {
-  if (cat === 'trending') {
-    return VIDEOS.filter(v => ['HOT', 'TRENDING', 'TOP', 'NEW', 'CLASSIC'].includes(v.badge));
-  }
-  return VIDEOS.filter(v => v.category === cat);
-}
-
-function getRandomVideos(count) {
-  const shuffled = [...VIDEOS].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, count);
-}
-
-console.log('📊 YOUR PLAY - Database Loaded');
-console.log('Total video:', VIDEOS.length);
